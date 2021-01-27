@@ -16,6 +16,13 @@ func TestGreetingSpecificDemo(t *testing.T) {
 	}
 }
 
+func TestGreetingSpecificPaul(t *testing.T) {
+	greeting := CreateGreeting("Paul")
+	if greeting != "Hello, Paul\n" {
+		t.Errorf("Greeting was incorrect, got: %s, want: %s.", greeting, "Hello, Demo\n")
+	}
+}
+
 func TestShowFailure(t *testing.T) {
 	greeting := CreateGreeting("Demo1")
 	if greeting != "Hello, Demo\n" {
