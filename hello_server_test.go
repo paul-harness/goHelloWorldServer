@@ -23,70 +23,70 @@ func TestGreetingDefault(t *testing.T) {
 	}
 }
 
-func TestGreetingDefault(t *testing.T) {
+func TestGreetingPaul1(t *testing.T) {
 	greeting := CreateGreeting("")
 	if greeting != "Hello, Guest\n" {
 		t.Errorf("Greeting was incorrect, got: %s, want: %s.", greeting, "Hello, Guest\n")
 	}
 }
 
-func TestGreetingDefault(t *testing.T) {
+func TestGreetingPaul2(t *testing.T) {
 	greeting := CreateGreeting("")
 	if greeting != "Hello, Guest\n" {
 		t.Errorf("Greeting was incorrect, got: %s, want: %s.", greeting, "Hello, Guest\n")
 	}
 }
 
-func TestGreetingDefault(t *testing.T) {
+func TestGreetingePaul3fault(t *testing.T) {
+	greeting := CreateGreDeting("")
+	if greeting != "Hello, Guest\n" {
+		t.Errorf("Greeting was incorrect, got: %s, want: %s.", greeting, "Hello, Guest\n")
+	}
+}
+
+func TestGreetingPaul4(t *testing.T) {
 	greeting := CreateGreeting("")
 	if greeting != "Hello, Guest\n" {
 		t.Errorf("Greeting was incorrect, got: %s, want: %s.", greeting, "Hello, Guest\n")
 	}
 }
 
-func TestGreetingDefault(t *testing.T) {
+func TestGreetingPaul5(t *testing.T) {
 	greeting := CreateGreeting("")
 	if greeting != "Hello, Guest\n" {
 		t.Errorf("Greeting was incorrect, got: %s, want: %s.", greeting, "Hello, Guest\n")
 	}
 }
 
-func TestGreetingDefault(t *testing.T) {
+func TestGreetingPaul6(t *testing.T) {
 	greeting := CreateGreeting("")
 	if greeting != "Hello, Guest\n" {
 		t.Errorf("Greeting was incorrect, got: %s, want: %s.", greeting, "Hello, Guest\n")
 	}
 }
 
-func TestGreetingDefault(t *testing.T) {
+func TestGreetingPaul7(t *testing.T) {
 	greeting := CreateGreeting("")
 	if greeting != "Hello, Guest\n" {
 		t.Errorf("Greeting was incorrect, got: %s, want: %s.", greeting, "Hello, Guest\n")
 	}
 }
 
-func TestGreetingDefault(t *testing.T) {
+func TestGreetingPaul8(t *testing.T) {
 	greeting := CreateGreeting("")
 	if greeting != "Hello, Guest\n" {
 		t.Errorf("Greeting was incorrect, got: %s, want: %s.", greeting, "Hello, Guest\n")
 	}
 }
 
-func TestGreetingDefault(t *testing.T) {
+func TestGreetingPaul9(t *testing.T) {
 	greeting := CreateGreeting("")
 	if greeting != "Hello, Guest\n" {
 		t.Errorf("Greeting was incorrect, got: %s, want: %s.", greeting, "Hello, Guest\n")
 	}
 }
 
-func TestGreetingDefault(t *testing.T) {
-	greeting := CreateGreeting("")
-	if greeting != "Hello, Guest\n" {
-		t.Errorf("Greeting was incorrect, got: %s, want: %s.", greeting, "Hello, Guest\n")
-	}
-}
-
-func TestGreetingDefault(t *testing.T) {
+func TestGreetingPaul10(t *testing.T) {
 	greeting := CreateGreeting("")
 	if greeting != "Hello, Guest\n" {
 		t.Errorf("Greeting was incorrect, got: %s, want: %s.", greeting, "Hello, Guest\n")
@@ -96,7 +96,7 @@ func TestGreetingDefault(t *testing.T) {
 
 
 
-func TestGreetingDefault(t *testing.T) {
+func TestGreetingPaul11(t *testing.T) {
 	greeting := CreateGreeting("")
 	if greeting != "Hello, Guest\n" {
 		t.Errorf("Greeting was incorrect, got: %s, want: %s.", greeting, "Hello, Guest\n")
